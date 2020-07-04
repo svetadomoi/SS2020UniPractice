@@ -1,0 +1,9 @@
+TimeStampRelative 	RunNumber	TimestampLocal	EventSource	FileNumber	EventMessage	
+-1367	7	23-06-2020 13:24	AcquisitionSystem	70	Inflow_1.5cP_WC0_run1_007_F0070_S20200623_142105.686+0500_0000.sgy	
+-30.0000001	7	23-06-2020 13:46	User		Fluid 1 rate 9 l/min	
+3.000000073	8	23-06-2020 13:47	AcquisitionSystem	71	Inflow_1.5cP_WC0_run1_008_F0071_S20200623_142050.686+0500_0000.sgy	
+47.99999991	8	23-06-2020 13:48	AcquisitionSystem	1	Inflow_1.5cP_WC0_run1_008_F0001_S20200623_144439.686+0500_0000.sgy	
+52.99999982	8	23-06-2020 13:48	User		Fluid 1 rate 5 l/min	
+63.00000027	8	23-06-2020 13:48	AcquisitionSystem	2	Inflow_1.5cP_WC0_run1_008_F0002_S20200623_144454.686+0500_0000.sgy	
+						
+						
