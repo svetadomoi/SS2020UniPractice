@@ -9,7 +9,7 @@ def findAcqStarted(linesArr,CurrentIndex,CurrAcqStarted): # поиск ближ�
 
 def acqSysFormat(CurrAcqLine):
 	CurrAcqLine = CurrAcqLine[10:]
-	CurrAcqLine = CurrAcqLine[CurrAcqLine.find("AcquisitionSystem")+3:CurrAcqLine.find("Inflow")]
+	CurrAcqLine = CurrAcqLine[CurrAcqLine.find("AcquisitionSystem"):CurrAcqLine.find("Inflow",CurrAcqLine.find("AcquisitionSystem"))]
 	return CurrAcqLine
 
 def userLineFormat(CurrUsrLine): # форматирование строки со значением User в поле EventSource
@@ -39,8 +39,8 @@ for i in range(len(lines)):
 			outputfile.write(acqSysFormat(lines[AcqSys])+'\n')
 			outputfile.write(userLineFormat(lines[i])+'\n')
 			if i+1 == AcqStarted:
-				outputfile.write(lines[i+2]+'\n')
+				outputfile.write(acqSysFormat(lines[i+2])+'\n')
 			else:
-				outputfile.write(lines[i+1]+'\n')
+				outputfile.write(acqSysFormat(lines[i+1])+'\n')
 
 outputfile.close()
