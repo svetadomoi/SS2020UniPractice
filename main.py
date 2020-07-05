@@ -7,9 +7,14 @@ def findAcqStarted(linesArr,CurrentIndex,CurrAcqStarted): # поиск ближ�
 				return CurrAcqStarted
 		return CurrAcqStarted
 
-def acqSysFormat(CurrAcqLine):
+def acqSysFormat(CurrAcqLine): # форматирование строки со значением AcquisitionSystem в поле EventSource не с пустым значением FileSizeBytes
 	CurrAcqLine = CurrAcqLine[10:]
-	CurrAcqLine = CurrAcqLine[CurrAcqLine.find("AcquisitionSystem"):CurrAcqLine.find("Inflow",CurrAcqLine.find("AcquisitionSystem"))]
+	TempLineForTime = '\t'+CurrAcqLine[CurrAcqLine.find(":")-15:CurrAcqLine.find(":")+4]
+	TempLineFileNumber = CurrAcqLine[CurrAcqLine.find("AcquisitionSystem"):CurrAcqLine.find('\t',CurrAcqLine.find("AcquisitionSystem"))+3]
+	TempLineForInflow = CurrAcqLine[CurrAcqLine.find("Inflow",CurrAcqLine.find("AcquisitionSystem")):CurrAcqLine.find(".sgy")+4]
+	if TempLineFileNumber[len(TempLineFileNumber)-1] != '\t':
+		TempLineFileNumber += '\t'
+	CurrAcqLine = TempLineForTime + TempLineFileNumber + TempLineForInflow
 	return CurrAcqLine
 
 def userLineFormat(CurrUsrLine): # форматирование строки со значением User в поле EventSource
