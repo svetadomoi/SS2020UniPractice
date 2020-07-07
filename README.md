@@ -1,2 +1,2 @@
-# SS2020UnicersityPractice
+# SS2020UniversityPractice
 Летняя производственная практика от универа (2020)
