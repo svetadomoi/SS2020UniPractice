@@ -51,7 +51,6 @@ for i in range(len(lines)):
 	if "Acquisition Started" in lines[i]:
 		AcqStartedArr.append(i)
 AcqStartedArr.append(-1)
-
 outputfile = open('result.txt','w')
 outputfile.write('TimeStampRelative'+'\t'+'RunNumber'+'\t'+'TimeStampLocal'+'\t'+'EventSource'+'\t'+'FileNumber'+'\t'+'EventMessage'+'\n')
 j = 0
