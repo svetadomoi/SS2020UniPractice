@@ -1,12 +1,3 @@
-def findAcqStarted(linesArr,CurrentIndex,CurrAcqStarted): # поиск ближайшего Acquisition Started
-	for i in range(CurrentIndex+1,len(linesArr)):
-		if "Acquisition Started" in linesArr[i]:
-			if i - CurrentIndex < CurrentIndex - CurrAcqStarted:
-				return i
-			else:
-				return CurrAcqStarted
-		return CurrAcqStarted
-
 def CompTimeStampRelative(AcqStartedLine,OriginLine):
 	ColonIndex = AcqStartedLine.find(':')
 	if AcqStartedLine[ColonIndex-2].isdigit():

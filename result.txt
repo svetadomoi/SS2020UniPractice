@@ -1,0 +1,181 @@
+TimeStampRelative	RunNumber	TimeStampLocal	EventSource	FileNumber	EventMessage
+-1380			7	23-06-2020 13:24	AcquisitionSystem	70	Inflow_1.5cP_WC0_run1_007_F0070_S20200623_142105.686+0500_0000.sgy
+-60			7	23-06-2020 13:46	User						Fluid 1 rate 9 l/min
+0			8	23-06-2020 13:47	AcquisitionSystem	71	Inflow_1.5cP_WC0_run1_008_F0071_S20200623_142050.686+0500_0000.sgy
+60			8	23-06-2020 13:48	AcquisitionSystem	1	Inflow_1.5cP_WC0_run1_008_F0001_S20200623_144439.686+0500_0000.sgy
+60			8	23-06-2020 13:48	User						Fluid 1 rate 5 l/min
+60			8	23-06-2020 13:48	AcquisitionSystem	2	Inflow_1.5cP_WC0_run1_008_F0002_S20200623_144454.686+0500_0000.sgy
+120			8	23-06-2020 13:49	AcquisitionSystem	7	Inflow_1.5cP_WC0_run1_008_F0007_S20200623_144609.686+0500_0000.sgy
+120			8	23-06-2020 13:49	User						Fluid 1 rate 7 l/min
+180			8	23-06-2020 13:50	AcquisitionSystem	8	Inflow_1.5cP_WC0_run1_008_F0008_S20200623_144624.686+0500_0000.sgy
+300			8	23-06-2020 13:52	AcquisitionSystem	17	Inflow_1.5cP_WC0_run1_008_F0017_S20200623_144839.686+0500_0000.sgy
+300			8	23-06-2020 13:52	User						Fluid 1 rate 9 l/min
+300			8	23-06-2020 13:52	AcquisitionSystem	18	Inflow_1.5cP_WC0_run1_008_F0018_S20200623_144854.686+0500_0000.sgy
+420			8	23-06-2020 13:54	AcquisitionSystem	26	Inflow_1.5cP_WC0_run1_008_F0026_S20200623_145054.686+0500_0000.sgy
+420			8	23-06-2020 13:54	User						Fluid 1 rate 11 l/min
+420			8	23-06-2020 13:54	AcquisitionSystem	27	Inflow_1.5cP_WC0_run1_008_F0027_S20200623_145109.686+0500_0000.sgy
+600			8	23-06-2020 13:57	AcquisitionSystem	36	Inflow_1.5cP_WC0_run1_008_F0036_S20200623_145324.686+0500_0000.sgy
+600			8	23-06-2020 13:57	User						Fluid 1 rate 13 l/min
+600			8	23-06-2020 13:57	AcquisitionSystem	37	Inflow_1.5cP_WC0_run1_008_F0037_S20200623_145339.686+0500_0000.sgy
+660			8	23-06-2020 13:58	AcquisitionSystem	43	Inflow_1.5cP_WC0_run1_008_F0043_S20200623_145509.686+0500_0000.sgy
+720			8	23-06-2020 13:59	User						Fluid 1 rate 15 l/min
+720			8	23-06-2020 13:59	AcquisitionSystem	44	Inflow_1.5cP_WC0_run1_008_F0044_S20200623_145524.686+0500_0000.sgy
+780			8	23-06-2020 14:00	AcquisitionSystem	51	Inflow_1.5cP_WC0_run1_008_F0051_S20200623_145709.686+0500_0000.sgy
+840			8	23-06-2020 14:01	User						Fluid 1 rate 17 l/min
+840			8	23-06-2020 14:01	AcquisitionSystem	52	Inflow_1.5cP_WC0_run1_008_F0052_S20200623_145724.686+0500_0000.sgy
+960			8	23-06-2020 14:03	AcquisitionSystem	60	Inflow_1.5cP_WC0_run1_008_F0060_S20200623_145924.686+0500_0000.sgy
+960			8	23-06-2020 14:03	User						Fluid 1 rate 19 l/min
+960			8	23-06-2020 14:03	AcquisitionSystem	61	Inflow_1.5cP_WC0_run1_008_F0061_S20200623_145939.686+0500_0000.sgy
+960			8	23-06-2020 14:03	AcquisitionSystem	62	Inflow_1.5cP_WC0_run1_008_F0062_S20200623_145954.686+0500_0000.sgy
+960			8	23-06-2020 14:03	User						Stopped
+960			8	23-06-2020 14:03	AcquisitionSystem	63	Inflow_1.5cP_WC0_run1_008_F0063_S20200623_150009.686+0500_0000.sgy
+60			9	23-06-2020 14:50	AcquisitionSystem	70	Inflow_1.5cP_WC0_run1_009_F0070_S20200623_154628.686+0500_0000.sgy
+60			9	23-06-2020 14:50	User						Exxol 1.5 cP rate WC=25% 5 l/min	
+60			9	23-06-2020 14:50	AcquisitionSystem	71	Inflow_1.5cP_WC0_run1_009_F0071_S20200623_154643.686+0500_0000.sgy
+360			9	23-06-2020 14:55	AcquisitionSystem	92	Inflow_1.5cP_WC0_run1_009_F0092_S20200623_155158.686+0500_0000.sgy
+360			9	23-06-2020 14:55	User						Exxol 1.5 cP rate WC=25% 7 l/min	
+360			9	23-06-2020 14:55	AcquisitionSystem	93	Inflow_1.5cP_WC0_run1_009_F0093_S20200623_155213.686+0500_0000.sgy
+480			9	23-06-2020 14:57	AcquisitionSystem	10	Inflow_1.5cP_WC0_run1_009_F0100_S20200623_155358.686+0500_0000.sgy
+480			9	23-06-2020 14:57	User						Exxol 1.5 cP rate WC=25% 9 l/min	
+480			9	23-06-2020 14:57	AcquisitionSystem	10	Inflow_1.5cP_WC0_run1_009_F0101_S20200623_155413.686+0500_0000.sgy
+660			9	23-06-2020 15:00	AcquisitionSystem	11	Inflow_1.5cP_WC0_run1_009_F0110_S20200623_155628.686+0500_0000.sgy
+660			9	23-06-2020 15:00	User						Fluid 1 rate WC=25% 11 l/min	
+660			9	23-06-2020 15:00	AcquisitionSystem	11	Inflow_1.5cP_WC0_run1_009_F0111_S20200623_155643.686+0500_0000.sgy
+840			9	23-06-2020 15:03	AcquisitionSystem	12	Inflow_1.5cP_WC0_run1_009_F0122_S20200623_155928.686+0500_0000.sgy
+840			9	23-06-2020 15:03	User						Fluid 1 rate WC=25% 13 l/min	
+840			9	23-06-2020 15:03	AcquisitionSystem	12	Inflow_1.5cP_WC0_run1_009_F0123_S20200623_155943.686+0500_0000.sgy
+1020			9	23-06-2020 15:06	AcquisitionSystem	13	Inflow_1.5cP_WC0_run1_009_F0134_S20200623_160228.686+0500_0000.sgy
+1020			9	23-06-2020 15:06	User						Fluid 1 rate WC=25% 15 l/min	
+1020			9	23-06-2020 15:06	AcquisitionSystem	13	Inflow_1.5cP_WC0_run1_009_F0135_S20200623_160243.686+0500_0000.sgy
+1140			9	23-06-2020 15:08	AcquisitionSystem	14	Inflow_1.5cP_WC0_run1_009_F0144_S20200623_160458.686+0500_0000.sgy
+1140			9	23-06-2020 15:08	User						Fluid 1 rate WC=25% 17 l/min	
+1140			9	23-06-2020 15:08	AcquisitionSystem	14	Inflow_1.5cP_WC0_run1_009_F0145_S20200623_160513.686+0500_0000.sgy
+1260			9	23-06-2020 15:10	AcquisitionSystem	15	Inflow_1.5cP_WC0_run1_009_F0152_S20200623_160658.686+0500_0000.sgy
+1260			9	23-06-2020 15:10	User						Fluid 1 rate WC=25% 19 l/min	
+1260			9	23-06-2020 15:10	AcquisitionSystem	15	Inflow_1.5cP_WC0_run1_009_F0153_S20200623_160713.686+0500_0000.sgy
+1380			9	23-06-2020 15:12	AcquisitionSystem	16	Inflow_1.5cP_WC0_run1_009_F0160_S20200623_160858.686+0500_0000.sgy
+1380			9	23-06-2020 15:12	User						Fluid 1 rate WC=25% 21 l/min	
+1380			9	23-06-2020 15:12	AcquisitionSystem	16	Inflow_1.5cP_WC0_run1_009_F0161_S20200623_160913.686+0500_0000.sgy
+360			1	23-06-2020 16:43	AcquisitionSystem	21	Inflow_1.5cP_WC25_back_pressure_run1_001_F0211_S20200623_174003.686+0500_0000.sgy
+360			1	23-06-2020 16:43	User						Fluid 1 rate WC=25% back pressure 4 bar 5 l/min	
+360			1	23-06-2020 16:43	AcquisitionSystem	21	Inflow_1.5cP_WC25_back_pressure_run1_001_F0212_S20200623_174018.686+0500_0000.sgy
+540			1	23-06-2020 16:46	AcquisitionSystem	22	Inflow_1.5cP_WC25_back_pressure_run1_001_F0222_S20200623_174248.686+0500_0000.sgy
+540			1	23-06-2020 16:46	User						Fluid 1 rate WC=25% back pressure 4 bar 7 l/min	
+540			1	23-06-2020 16:46	AcquisitionSystem	22	Inflow_1.5cP_WC25_back_pressure_run1_001_F0223_S20200623_174303.686+0500_0000.sgy
+660			1	23-06-2020 16:48	AcquisitionSystem	22	Inflow_1.5cP_WC25_back_pressure_run1_001_F0229_S20200623_174433.686+0500_0000.sgy
+660			1	23-06-2020 16:48	User						Fluid 1 rate WC=25% back pressure 4 bar 9 l/min	
+660			1	23-06-2020 16:48	AcquisitionSystem	23	Inflow_1.5cP_WC25_back_pressure_run1_001_F0230_S20200623_174448.686+0500_0000.sgy
+720			1	23-06-2020 16:49	AcquisitionSystem	23	Inflow_1.5cP_WC25_back_pressure_run1_001_F0234_S20200623_174548.686+0500_0000.sgy
+720			1	23-06-2020 16:49	User						Fluid 1 rate WC=25% back pressure 4 bar 9 l/min	
+720			1	23-06-2020 16:49	AcquisitionSystem	23	Inflow_1.5cP_WC25_back_pressure_run1_001_F0235_S20200623_174603.686+0500_0000.sgy
+900			1	23-06-2020 16:52	AcquisitionSystem	24	Inflow_1.5cP_WC25_back_pressure_run1_001_F0247_S20200623_174903.686+0500_0000.sgy
+900			1	23-06-2020 16:52	User						Fluid 1 rate WC=25% back pressure 4 bar 11 l/min	
+900			1	23-06-2020 16:52	AcquisitionSystem	24	Inflow_1.5cP_WC25_back_pressure_run1_001_F0248_S20200623_174918.686+0500_0000.sgy
+1020			1	23-06-2020 16:54	AcquisitionSystem	25	Inflow_1.5cP_WC25_back_pressure_run1_001_F0256_S20200623_175118.686+0500_0000.sgy
+1020			1	23-06-2020 16:54	User						Fluid 1 rate WC=25% back pressure 4 bar 13 l/min	
+1080			1	23-06-2020 16:55	AcquisitionSystem	25	Inflow_1.5cP_WC25_back_pressure_run1_001_F0257_S20200623_175133.686+0500_0000.sgy
+1080			1	23-06-2020 16:55	AcquisitionSystem	25	Inflow_1.5cP_WC25_back_pressure_run1_001_F0259_S20200623_175203.686+0500_0000.sgy
+1080			1	23-06-2020 16:55	User						Fluid 1 rate WC=25% back pressure 4 bar 13 l/min	
+1080			1	23-06-2020 16:55	AcquisitionSystem	26	Inflow_1.5cP_WC25_back_pressure_run1_001_F0260_S20200623_175218.686+0500_0000.sgy
+1260			1	23-06-2020 16:58	AcquisitionSystem	27	Inflow_1.5cP_WC25_back_pressure_run1_001_F0271_S20200623_175503.686+0500_0000.sgy
+1260			1	23-06-2020 16:58	User						Fluid 1 rate WC=25% back pressure 4 bar 15 l/min	
+1260			1	23-06-2020 16:58	AcquisitionSystem	27	Inflow_1.5cP_WC25_back_pressure_run1_001_F0272_S20200623_175518.686+0500_0000.sgy
+1440			1	23-06-2020 17:01	AcquisitionSystem	28	Inflow_1.5cP_WC25_back_pressure_run1_001_F0284_S20200623_175818.686+0500_0000.sgy
+1500			1	23-06-2020 17:02	User						Fluid 1 rate WC=25% back pressure 4 bar 17 l/min	
+1500			1	23-06-2020 17:02	AcquisitionSystem	28	Inflow_1.5cP_WC25_back_pressure_run1_001_F0285_S20200623_175833.686+0500_0000.sgy
+1620			1	23-06-2020 17:04	AcquisitionSystem	29	Inflow_1.5cP_WC25_back_pressure_run1_001_F0295_S20200623_180103.686+0500_0000.sgy
+1620			1	23-06-2020 17:04	User						Stopped	
+1620			1	23-06-2020 17:04	AcquisitionSystem	29	Inflow_1.5cP_WC25_back_pressure_run1_001_F0296_S20200623_180118.686+0500_0000.sgy
+1680			1	23-06-2020 17:05	AcquisitionSystem	29	Inflow_1.5cP_WC25_back_pressure_run1_001_F0298_S20200623_180148.686+0500_0000.sgy
+3840			1	23-06-2020 17:41	User						Fluid 1  WC 55% 5 l/min	
+0			4	23-06-2020 18:11	AcquisitionSystem	29	Inflow_1.5cP_WC55_back_pressure_run1_004_F0299_S20200623_180133.686+0500_0000.sgy
+480			4	23-06-2020 18:19	AcquisitionSystem	32	Inflow_1.5cP_WC55_back_pressure_run1_004_F0329_S20200623_191525.686+0500_0000.sgy
+480			4	23-06-2020 18:19	User						Fluid 1  WC 55% 7 l/min	
+480			4	23-06-2020 18:19	AcquisitionSystem	33	Inflow_1.5cP_WC55_back_pressure_run1_004_F0330_S20200623_191540.686+0500_0000.sgy
+600			4	23-06-2020 18:21	AcquisitionSystem	33	Inflow_1.5cP_WC55_back_pressure_run1_004_F0338_S20200623_191740.686+0500_0000.sgy
+600			4	23-06-2020 18:21	User						Fluid 1  WC 55% 9 l/min	
+600			4	23-06-2020 18:21	AcquisitionSystem	33	Inflow_1.5cP_WC55_back_pressure_run1_004_F0339_S20200623_191755.686+0500_0000.sgy
+720			4	23-06-2020 18:23	AcquisitionSystem	34	Inflow_1.5cP_WC55_back_pressure_run1_004_F0347_S20200623_191955.686+0500_0000.sgy
+720			4	23-06-2020 18:23	User						Fluid 1  WC 55% 11 l/min	
+720			4	23-06-2020 18:23	AcquisitionSystem	34	Inflow_1.5cP_WC55_back_pressure_run1_004_F0348_S20200623_192010.686+0500_0000.sgy
+840			4	23-06-2020 18:25	AcquisitionSystem	35	Inflow_1.5cP_WC55_back_pressure_run1_004_F0356_S20200623_192210.686+0500_0000.sgy
+900			4	23-06-2020 18:26	User						Fluid 1  WC 55% 13 l/min	
+900			4	23-06-2020 18:26	AcquisitionSystem	35	Inflow_1.5cP_WC55_back_pressure_run1_004_F0357_S20200623_192225.686+0500_0000.sgy
+900			4	23-06-2020 18:26	AcquisitionSystem	35	Inflow_1.5cP_WC55_back_pressure_run1_004_F0357_S20200623_192225.686+0500_0000.sgy
+900			4	23-06-2020 18:26	User						Fluid 1  WC 55% 15 l/min	
+900			4	23-06-2020 18:26	AcquisitionSystem	35	Inflow_1.5cP_WC55_back_pressure_run1_004_F0358_S20200623_192240.686+0500_0000.sgy
+1140			4	23-06-2020 18:30	AcquisitionSystem	37	Inflow_1.5cP_WC55_back_pressure_run1_004_F0374_S20200623_192640.686+0500_0000.sgy
+1140			4	23-06-2020 18:30	User						Fluid 1  WC 55% 17 l/min	
+1140			4	23-06-2020 18:30	AcquisitionSystem	37	Inflow_1.5cP_WC55_back_pressure_run1_004_F0375_S20200623_192655.686+0500_0000.sgy
+1200			4	23-06-2020 18:31	AcquisitionSystem	38	Inflow_1.5cP_WC55_back_pressure_run1_004_F0380_S20200623_192810.686+0500_0000.sgy
+1200			4	23-06-2020 18:31	User						Stopped	
+1260			4	23-06-2020 18:32	AcquisitionSystem	38	Inflow_1.5cP_WC55_back_pressure_run1_004_F0381_S20200623_192825.686+0500_0000.sgy
+1380			4	23-06-2020 18:34	AcquisitionSystem	39	Inflow_1.5cP_WC55_back_pressure_run1_004_F0392_S20200623_193110.686+0500_0000.sgy
+1440			4	23-06-2020 18:35	User						Started	
+60			1	23-06-2020 18:36	AcquisitionSystem	39	Inflow_1.5cP_WC55_run2_001_F0393_S20200623_193055.686+0500_0000.sgy
+60			1	23-06-2020 18:36	AcquisitionSystem	39	Inflow_1.5cP_WC55_run2_001_F0394_S20200623_193254.686+0500_0000.sgy
+60			1	23-06-2020 18:36	User						Fluid 1  WC 55% 5 l/min	
+60			1	23-06-2020 18:36	AcquisitionSystem	39	Inflow_1.5cP_WC55_run2_001_F0395_S20200623_193309.686+0500_0000.sgy
+180			1	23-06-2020 18:38	AcquisitionSystem	40	Inflow_1.5cP_WC55_run2_001_F0402_S20200623_193454.686+0500_0000.sgy
+180			1	23-06-2020 18:38	User						Fluid 1  WC 55% 7 l/min	
+180			1	23-06-2020 18:38	AcquisitionSystem	40	Inflow_1.5cP_WC55_run2_001_F0403_S20200623_193509.686+0500_0000.sgy
+300			1	23-06-2020 18:40	AcquisitionSystem	41	Inflow_1.5cP_WC55_run2_001_F0410_S20200623_193654.686+0500_0000.sgy
+300			1	23-06-2020 18:40	User						Fluid 1  WC 55% 9 l/min	
+300			1	23-06-2020 18:40	AcquisitionSystem	41	Inflow_1.5cP_WC55_run2_001_F0411_S20200623_193709.686+0500_0000.sgy
+420			1	23-06-2020 18:42	AcquisitionSystem	41	Inflow_1.5cP_WC55_run2_001_F0418_S20200623_193854.686+0500_0000.sgy
+420			1	23-06-2020 18:42	User						Fluid 1  WC 55% 11 l/min	
+420			1	23-06-2020 18:42	AcquisitionSystem	41	Inflow_1.5cP_WC55_run2_001_F0419_S20200623_193909.686+0500_0000.sgy
+540			1	23-06-2020 18:44	AcquisitionSystem	42	Inflow_1.5cP_WC55_run2_001_F0427_S20200623_194109.686+0500_0000.sgy
+540			1	23-06-2020 18:44	User						Fluid 1  WC 55% 13 l/min	
+600			1	23-06-2020 18:45	AcquisitionSystem	42	Inflow_1.5cP_WC55_run2_001_F0428_S20200623_194124.686+0500_0000.sgy
+720			1	23-06-2020 18:47	AcquisitionSystem	43	Inflow_1.5cP_WC55_run2_001_F0436_S20200623_194324.686+0500_0000.sgy
+720			1	23-06-2020 18:47	User						Fluid 1  WC 55% 15 l/min	
+720			1	23-06-2020 18:47	AcquisitionSystem	43	Inflow_1.5cP_WC55_run2_001_F0437_S20200623_194339.686+0500_0000.sgy
+840			1	23-06-2020 18:49	AcquisitionSystem	44	Inflow_1.5cP_WC55_run2_001_F0445_S20200623_194539.686+0500_0000.sgy
+840			1	23-06-2020 18:49	User						Fluid 1  WC 55% 17 l/min	
+840			1	23-06-2020 18:49	AcquisitionSystem	44	Inflow_1.5cP_WC55_run2_001_F0446_S20200623_194554.686+0500_0000.sgy
+900			1	23-06-2020 18:50	AcquisitionSystem	45	Inflow_1.5cP_WC55_run2_001_F0451_S20200623_194709.686+0500_0000.sgy
+960			1	23-06-2020 18:51	User						Stopped	
+960			1	23-06-2020 18:51	AcquisitionSystem	45	Inflow_1.5cP_WC55_run2_001_F0452_S20200623_194724.686+0500_0000.sgy
+60			2	23-06-2020 19:27	AcquisitionSystem	46	Inflow_1.5cP_WC55_run2_002_F0460_S20200623_202344.686+0500_0000.sgy
+60			2	23-06-2020 19:27	User						Fluid 1  WC 55% back pressure 4 bar, 5 l/min	
+60			2	23-06-2020 19:27	AcquisitionSystem	46	Inflow_1.5cP_WC55_run2_002_F0461_S20200623_202359.686+0500_0000.sgy
+120			2	23-06-2020 19:28	AcquisitionSystem	46	Inflow_1.5cP_WC55_run2_002_F0464_S20200623_202444.686+0500_0000.sgy
+120			2	23-06-2020 19:28	User						Fluid 1  WC 55% back pressure 4 bar, 7 l/min	
+120			2	23-06-2020 19:28	AcquisitionSystem	46	Inflow_1.5cP_WC55_run2_002_F0465_S20200623_202459.686+0500_0000.sgy
+180			2	23-06-2020 19:29	AcquisitionSystem	46	Inflow_1.5cP_WC55_run2_002_F0468_S20200623_202544.686+0500_0000.sgy
+180			2	23-06-2020 19:29	User						Fluid 1  WC 55% back pressure 4 bar, 7 l/min	
+180			2	23-06-2020 19:29	AcquisitionSystem	46	Inflow_1.5cP_WC55_run2_002_F0469_S20200623_202559.686+0500_0000.sgy
+300			2	23-06-2020 19:31	AcquisitionSystem	47	Inflow_1.5cP_WC55_run2_002_F0476_S20200623_202744.686+0500_0000.sgy
+300			2	23-06-2020 19:31	User						Fluid 1  WC 55% back pressure 4 bar, 9 l/min	
+300			2	23-06-2020 19:31	AcquisitionSystem	47	Inflow_1.5cP_WC55_run2_002_F0477_S20200623_202759.686+0500_0000.sgy
+360			2	23-06-2020 19:32	AcquisitionSystem	47	Inflow_1.5cP_WC55_run2_002_F0479_S20200623_202829.686+0500_0000.sgy
+360			2	23-06-2020 19:32	User						Fluid 1  WC 55% back pressure 4 bar, 9 l/min	
+360			2	23-06-2020 19:32	AcquisitionSystem	48	Inflow_1.5cP_WC55_run2_002_F0480_S20200623_202844.686+0500_0000.sgy
+420			2	23-06-2020 19:33	AcquisitionSystem	48	Inflow_1.5cP_WC55_run2_002_F0486_S20200623_203014.686+0500_0000.sgy
+480			2	23-06-2020 19:34	User						Fluid 1  WC 55% back pressure 4 bar, 11 l/min	
+480			2	23-06-2020 19:34	AcquisitionSystem	48	Inflow_1.5cP_WC55_run2_002_F0487_S20200623_203029.686+0500_0000.sgy
+480			2	23-06-2020 19:34	AcquisitionSystem	48	Inflow_1.5cP_WC55_run2_002_F0489_S20200623_203059.686+0500_0000.sgy
+480			2	23-06-2020 19:34	User						Fluid 1  WC 55% back pressure 4 bar, 11 l/min	
+480			2	23-06-2020 19:34	AcquisitionSystem	49	Inflow_1.5cP_WC55_run2_002_F0490_S20200623_203114.686+0500_0000.sgy
+600			2	23-06-2020 19:36	AcquisitionSystem	49	Inflow_1.5cP_WC55_run2_002_F0497_S20200623_203259.686+0500_0000.sgy
+600			2	23-06-2020 19:36	User						Fluid 1  WC 55% back pressure 4 bar, 13 l/min	
+600			2	23-06-2020 19:36	AcquisitionSystem	49	Inflow_1.5cP_WC55_run2_002_F0498_S20200623_203314.686+0500_0000.sgy
+660			2	23-06-2020 19:37	AcquisitionSystem	50	Inflow_1.5cP_WC55_run2_002_F0501_S20200623_203359.686+0500_0000.sgy
+660			2	23-06-2020 19:37	User						Fluid 1  WC 55% back pressure 4 bar, 13 l/min	
+660			2	23-06-2020 19:37	AcquisitionSystem	50	Inflow_1.5cP_WC55_run2_002_F0502_S20200623_203414.686+0500_0000.sgy
+780			2	23-06-2020 19:39	AcquisitionSystem	51	Inflow_1.5cP_WC55_run2_002_F0510_S20200623_203614.686+0500_0000.sgy
+780			2	23-06-2020 19:39	User						Fluid 1  WC 55% back pressure 4 bar, 15 l/min	
+840			2	23-06-2020 19:40	AcquisitionSystem	51	Inflow_1.5cP_WC55_run2_002_F0511_S20200623_203629.686+0500_0000.sgy
+840			2	23-06-2020 19:40	AcquisitionSystem	51	Inflow_1.5cP_WC55_run2_002_F0513_S20200623_203659.686+0500_0000.sgy
+840			2	23-06-2020 19:40	User						Fluid 1  WC 55% back pressure 4 bar, 15 l/min	
+840			2	23-06-2020 19:40	AcquisitionSystem	51	Inflow_1.5cP_WC55_run2_002_F0514_S20200623_203714.686+0500_0000.sgy
+960			2	23-06-2020 19:42	AcquisitionSystem	52	Inflow_1.5cP_WC55_run2_002_F0520_S20200623_203844.686+0500_0000.sgy
+960			2	23-06-2020 19:42	User						Fluid 1  WC 55% back pressure 4 bar, 17 l/min	
+960			2	23-06-2020 19:42	AcquisitionSystem	52	Inflow_1.5cP_WC55_run2_002_F0521_S20200623_203859.686+0500_0000.sgy
+1020			2	23-06-2020 19:43	AcquisitionSystem	52	Inflow_1.5cP_WC55_run2_002_F0524_S20200623_203944.686+0500_0000.sgy
+1020			2	23-06-2020 19:43	User						Fluid 1  WC 55% back pressure 4 bar, 17 l/min	
+1020			2	23-06-2020 19:43	AcquisitionSystem	52	Inflow_1.5cP_WC55_run2_002_F0525_S20200623_203959.686+0500_0000.sgy
+1020			2	23-06-2020 19:43	AcquisitionSystem	52	Inflow_1.5cP_WC55_run2_002_F0525_S20200623_203959.686+0500_0000.sgy
+1020			2	23-06-2020 19:43	User						Stopped	
+1020			2	23-06-2020 19:43	AcquisitionSystem	52	Inflow_1.5cP_WC55_run2_002_F0526_S20200623_204014.686+0500_0000.sgy
