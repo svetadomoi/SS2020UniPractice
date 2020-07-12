@@ -1,30 +1,47 @@
 class fileLine:
+	def __init__(self,Line,Index,EventSource):
+		self.Line = Line
+		self.Index = Index
+		self.EventSource = EventSource
+	def getRunNumber(self):
+		self.RunNumber = self.Line[self.Line.find('\t',self.Line.find('run'))+1:self.Line.find('\t',self.Line.find('\t',self.Line.find('run'))+1)]
+		return self.RunNumber
     
-    def __init__(self,Line,Index):
-        self.Line = Line
-    	self.Index = Index
-    def getLineType(self):
-        return self.Type
+	def getTimeStampLocal(self):
+		ColonIndex = self.Line.find(':')
+		i = ColonIndex
+		while self.Line[i] != '\t':
+			i-=1
+		self.TimeStampLocal = self.Line[i+1:ColonIndex+3]
+		return self.TimeStampLocal
+    
+	def getFileNumber(self):
+		self.FileNumber = self.Line[self.Line.find('\t',self.Line.find(self.EventSource))+1:self.Line.find('\t',self.Line.find('\t',self.Line.find(self.EventSource))+1)]
+		return self.FileNumber
 
-    def getRunNumber(self):
-        return self.RunNumber
-    
-    def getTimeStampLocal(self):
-        return self.TimeStampLocal
-    
-    def getEventSource(self):
-        return self.EventSource
-    
-    def getFileNumber(self):
-        return self.RunNumber
-    
-    def getEventMessage(self):
-        return self.RunNumber
+	def getEventMessage(self):
+		if self.EventSource == 'AcquisitionSystem':
+			pointIndex = self.Line.find('.sgy')
+			i = pointIndex
+			while self.Line[i] != '\t':
+				i-=1
+			self.EventMessage = self.Line[i+1:pointIndex+4]
+		else:
+			slashIndex = self.Line.find('/min')
+			i = slashIndex
+			while self.Line[i] != '\t':
+				i-=1
+			self.EventMessage = self.Line[i+1:slashIndex+4]
+		return self.EventMessage
 
-    def infoOut(self):
-        print(self.Line)
+	def infoOut(self):
+		print(self.EventMessage)
+		print(self.EventSource)
+		print(self.FileNumber)
+		print(self.TimeStampLocal)
+		print(self.RunNumber)
+		print(self.Line)
 
-#linesObjArr = []
 onlyNeededLines = []
 AcqStartedLines = []
 
@@ -37,41 +54,22 @@ for i in range(len(lines)):
 		AcqSysIndex = i
 		continue
 	if 'Acquisition Started' in lines[i]:
-		AcqStartedLines.append(fileLine(lines[i],i))
+		AcqStartedLines.append(fileLine(lines[i],i,'Acquisition Started'))
 		continue
 	if 'User' in lines[i]:
 		if 'User' in lines[i+1]:
 			continue
 		else:
-			onlyNeededLines.append(fileline(lines[AcqSysIndex],AcqSysIndex))
-			onlyNeededLines.append(fileline(lines[i],i))
+			onlyNeededLines.append(fileLine(lines[AcqSysIndex],AcqSysIndex,'AcquisitionSystem'))
+			onlyNeededLines.append(fileLine(lines[i],i,'User'))
 
 			if 'Acquisition Started' in lines[i+1]:
-				AcqStartedLines.append(fileLine(lines[i+1],i+1))
-				onlyNeededLines.append(fileline(lines[i+2],i+2))
+				AcqStartedLines.append(fileLine(lines[i+1],i+1,'Acquisition Started'))
+				onlyNeededLines.append(fileLine(lines[i+2],i+2,'AcquisitionSystem'))
 			else:
-				onlyNeededLines.append(fileline(lines[i+1],i+1))
-
-
-
-
-
-
-#for line in datafile.readlines():
-    #if 'User' in line or 'AcquisitionSystem' in line:
-        #linesObjArr.append(fileLine(line))
-
-
-#for i in range(len(linesObjArr)):
-    #if 'AcquisitionSystem' in linesObjArr[i].Line and 'Acquisition Started' not in linesObjArr[i].Line:
-        #acqIndex = i
-    #if 'User' in linesObjArr[i].Line and i!=len(linesObjArr)-1:
-        #if 'User' in linesObjArr[i+1].Line:
-            #continue
-    #else:
-        #onlyNeededLines.append(linesObjArr[acqIndex])
-        #onlyNeededLines.append(linesObjArr[i])
-
-
-
-
+				onlyNeededLines.append(fileLine(lines[i+1],i+1,'AcquisitionSystem'))
+onlyNeededLines[1].getEventMessage()
+onlyNeededLines[1].getFileNumber()
+onlyNeededLines[1].getTimeStampLocal()
+onlyNeededLines[1].getRunNumber()
+onlyNeededLines[1].infoOut()
