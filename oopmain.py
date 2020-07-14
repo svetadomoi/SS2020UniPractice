@@ -35,14 +35,14 @@ class fileLine:
 		for i in range(len(AcqStartedLines)-1):
 			if self.Index > AcqStartedLines[i].Index and self.Index < AcqStartedLines[i+1].Index:
 				self.TimeStampRelative = self.scndsTime - AcqStartedLines[i].scndsTime
+				break
 	def writeInfoToFile(self,filename):
 		self.getRunNumber()
 		self.getTimeStampLocal()
 		self.getFileNumber()
 		self.getEventMessage()
 		self.getTimeStampRelative()
-		filename.write(str(self.TimeStampRelative)+self.RunNumber+self.TimeStampLocal+self.EventSource+self.FileNumber+self.EventMessage+'\n')
-
+		filename.write(str(self.TimeStampRelative)+'\t'+self.RunNumber+'\t'+self.TimeStampLocal+'\t'+self.EventSource+self.FileNumber+'\t'+self.EventMessage+'\n')
 onlyNeededLines = []
 AcqStartedLines = []
 
@@ -71,6 +71,7 @@ for i in range(len(lines)):
 				onlyNeededLines.append(fileLine(lines[i+1],i+1,'AcquisitionSystem'))
 AcqStartedLines.insert(0,fileLine(AcqStartedLines[0].Line,AcqStartedLines[0].Index,AcqStartedLines[0].EventSource))
 AcqStartedLines[0].Index = -1
+AcqStartedLines[0].getTimeStampLocal()
 AcqStartedLines.append(fileLine(AcqStartedLines[len(AcqStartedLines)-1].Line,AcqStartedLines[len(AcqStartedLines)-1].Index,AcqStartedLines[len(AcqStartedLines)-1].EventSource))
 AcqStartedLines[len(AcqStartedLines)-1].Index = len(lines)
 
