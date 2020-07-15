@@ -4,6 +4,7 @@ class fileLine:
 		self.Index = Index
 		self.EventSource = EventSource
 		self.scndsTime = 0
+		self.EventMessage = ''
 	def getRunNumber(self):
 		self.RunNumber = self.Line[self.Line.find('\t',self.Line.find('run'))+1:self.Line.find('\t',self.Line.find('\t',self.Line.find('run'))+1)]
     
@@ -25,11 +26,13 @@ class fileLine:
 				i-=1
 			self.EventMessage = self.Line[i+1:pointIndex+4]
 		else:
-			slashIndex = self.Line.find('/min')
-			i = slashIndex
-			while self.Line[i] != '\t':
-				i-=1
-			self.EventMessage = self.Line[i+1:slashIndex+4]
+			for i in range(self.Line.find('\t',self.Line.find(self.EventSource)),len(self.Line)):
+				if self.Line[i]!='\t':
+					j = i
+					while self.Line[j] != '\t':
+						self.EventMessage+=self.Line[j]
+						j+=1
+					break
 
 	def getTimeStampRelative(self):
 		for i in range(len(AcqStartedLines)-1):
@@ -42,7 +45,7 @@ class fileLine:
 		self.getFileNumber()
 		self.getEventMessage()
 		self.getTimeStampRelative()
-		filename.write(str(self.TimeStampRelative)+'\t'+self.RunNumber+'\t'+self.TimeStampLocal+'\t'+self.EventSource+self.FileNumber+'\t'+self.EventMessage+'\n')
+		filename.write(str(self.TimeStampRelative)+'\t'+self.RunNumber+'\t'+self.TimeStampLocal+'\t'+self.EventSource+'\t'+self.FileNumber+'\t'+self.EventMessage+'\n')
 onlyNeededLines = []
 AcqStartedLines = []
 

@@ -32,11 +32,8 @@ def userLineFormat(CurrUsrLine): # форматирование строки с�
 	usrLine = usrLine[:20]+usrLine[usrLine.find("User"):]
 	return usrLine
 
-	
 with open(r"Example_file.log","r") as datafile:
 	lines = datafile.readlines()
-
-
 AcqStartedArr = []
 for i in range(len(lines)):
 	if "Acquisition Started" in lines[i]:
